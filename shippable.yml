@@ -19,6 +19,7 @@ build:
     - docker images
     - node --version
     - javac -version
+    - source /usr/local/rvm/scripts/rvm
     - ruby --version
     - gcloud version
     - aws --version
