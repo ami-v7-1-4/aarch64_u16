@@ -23,7 +23,6 @@ build:
     - ruby --version
     - gcloud version
     - aws --version
-    - az --version
     - packer --version
     - jq --version
     - kubectl version --client
