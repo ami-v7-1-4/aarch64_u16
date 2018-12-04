@@ -27,6 +27,9 @@ build:
     - jq --version
     - kubectl version --client
     - docker --version
+    - EXPECTED_DOCKER_VERSION="18.03.1-ce"
+    - |
+      [ $(docker version --format {{.Server.Version}}) == "$EXPECTED_DOCKER_VERSION" ]
     
 integrations:
     
