@@ -22,7 +22,9 @@ build:
     - source /usr/local/rvm/scripts/rvm
     - ruby --version
     - gcloud version
+    - eb --version
     - aws --version
+    - az --version
     - packer --version
     - jq --version
     - kubectl version --client
