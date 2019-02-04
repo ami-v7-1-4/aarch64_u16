@@ -23,13 +23,13 @@ build:
     - ruby --version
     - gcloud version #228.0.0
     - eb --version #3.14.8
-    - aws --version #1.16.81
-    - az --version #3.0.0
+    - aws --version #1.16.81    
     - ansible --version #2.7.5
     - packer --version #1.3.3 
     - jq --version
     - kubectl version --client #1.13.1
     - docker --version
+    - az --version #3.0.0
    # - EXPECTED_DOCKER_VERSION="18.03.1-ce"
    # - |
    #   [ $(docker version --format {{.Server.Version}}) == "$EXPECTED_DOCKER_VERSION" ]
