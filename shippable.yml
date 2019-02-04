@@ -1,8 +1,8 @@
-language: python
+language: none
 
 # Version number
-python:
-  - 2.7
+#python:
+#  - 2.7
 
 runtime:
   nodePool: custom__aarch64__Ubuntu_16_04
